@@ -25,7 +25,7 @@
 
   a {
     border: 0;
-    color: inherit;
+    color: _palette(secondary);
   }
 }
 
@@ -61,7 +61,7 @@
     margin: 0 0 0 30px;
 
     &.current-menu-item {
-      color: _palette(meta);
+      color: _palette(accent);
     }
   }
 
@@ -73,7 +73,7 @@
 
     &:hover,
     &:focus {
-      color: _palette(meta);
+      color: _palette(accent);
     }
   }
 

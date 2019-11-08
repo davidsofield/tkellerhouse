@@ -3,16 +3,16 @@
  * ----------------------------------------------------------------------------
  */
 #colophon {
-  background: _palette(secondary);
+  background: _palette(meta);
   color: _palette(meta);
 
   a {
-    color: inherit;
+    color: _palette(text-light);
 
     &:hover,
     &:focus {
       border-color: currentColor;
-      color: _palette(border);
+      color: _palette(text-light);
     }
   }
 }
@@ -46,7 +46,7 @@
 }
 
 .widget-title {
-  color: _palette(border);
+  color: _palette(text-light);
   font-size: 1rem;
   margin: 0 0 1.33333rem;
 }
@@ -94,7 +94,7 @@
 }
 
 .site-info {
-  border-top: 1px solid _palette(primary);
+  border-top: 1px solid _palette(text-light);
   font-size: 14px;
   line-height: 1.5;
   padding-bottom: 1.66667rem;
